@@ -1,0 +1,93 @@
+{
+  "id": "2119850",
+  "name": "后台",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "10262050",
+      "name": "设 置",
+      "font_class": "shezhi",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "1165",
+      "name": "管理员",
+      "font_class": "guanliyuan",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "351750",
+      "name": "分类",
+      "font_class": "fenlei",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "693661",
+      "name": "角色管理",
+      "font_class": "jiaoseguanli",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "785013",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "4770737",
+      "name": "商品管理",
+      "font_class": "shangpinguanli",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "5269224",
+      "name": "会员",
+      "font_class": "huiyuan",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "5269230",
+      "name": "商品",
+      "font_class": "shangping",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "6447174",
+      "name": "规格管理",
+      "font_class": "guigeguanli",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "9809642",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "13547745",
+      "name": "轮播图",
+      "font_class": "lunbotu",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "15898565",
+      "name": "秒杀",
+      "font_class": "miaosha",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    }
+  ]
+}
