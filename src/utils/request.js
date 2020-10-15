@@ -10,15 +10,15 @@ let baseUrl = "/api"
 import Vue from "vue"
 Vue.prototype.$imgPre = "http://localhost:3000"
 // 请求拦截
-// axiso.interceptors.request(req=>{
-//   console.log("-------请求拦截------");
-//   console.log(req);
-//   if(req.url!=baseUrl +"/api/userlogin"){
-//     req.headers.authorization = store.state.userInfo.token
-//   }
-//     return req
+axiso.interceptors.request.use(req=>{
+  console.log("-------请求拦截------");
+  console.log(req);
+  if(req.url!=baseUrl +"/api/userlogin"){
+    req.headers.authorization = store.state.userInfo.token
+  }
+    return req
   
-// })
+})
 
 // 响应拦截
 axiso.interceptors.response.use(res => {
