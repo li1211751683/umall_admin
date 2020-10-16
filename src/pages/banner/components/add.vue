@@ -17,7 +17,7 @@
           <el-input v-model="form.title"  ></el-input>
         </el-form-item>
 
-         <el-form-item label="图片">
+         <el-form-item label="图片" prop="image">
           <div class="my-upload">
             <h3>+</h3>
             <img class="img" v-if="imgUrl" :src="imgUrl" alt="">
@@ -62,6 +62,7 @@ export default {
       },
       addRules: {
         title: [{ required: true, message: "请输入标题", trigger: "blur" }],
+        image: [{ required: true, message: "请上传图片", trigger: "change" }],
        
       },
     };

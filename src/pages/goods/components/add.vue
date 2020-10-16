@@ -49,7 +49,7 @@
           <el-input v-model="form.market_price"></el-input>
         </el-form-item>
 
-        <el-form-item label="图片" v-if="form.pid != 0">
+        <el-form-item label="图片" v-if="form.pid != 0" prop="img">
           <div class="my-upload">
             <h3>+</h3>
             <img class="img" v-if="imgUrl" :src="imgUrl" alt="" />
@@ -173,6 +173,9 @@ export default {
         ],
         specsattr: [
           { required: true, message: "请选择商品属性", trigger: "blur" },
+        ],
+        img: [
+          { required: true, message: "请上传图片", trigger: "change" },
         ],
       },
       secondCateList: [],

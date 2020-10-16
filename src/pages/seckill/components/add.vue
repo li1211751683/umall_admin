@@ -16,7 +16,7 @@
           <el-input v-model="form.title"></el-input>
         </el-form-item>
 
-        <el-form-item label="活动日期" prop="time">
+        <el-form-item label="活动日期" >
           <el-date-picker
             v-model="time"
             type="datetimerange"

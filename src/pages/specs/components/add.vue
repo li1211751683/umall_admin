@@ -115,6 +115,10 @@ export default {
         if (!valid) {
           return this.$message.error("请填写必要的表单项！");
         }
+        if(this.attrArr.some(item=>item.value=="")){
+          warningAlert("所有属性值必填")
+          return
+        }
         this.form.attrs = JSON.stringify(this.attrArr.map((item)=>item.value))
         console.log(this.form);
         

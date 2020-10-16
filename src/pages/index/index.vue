@@ -27,6 +27,7 @@
           :collapse="isCollapse"
           :collapse-transition="false"
           :router="true"
+          :default-active="activerouter"
         >
           <el-menu-item index="/">
             <i class="iconfont icon-shouye"></i>
@@ -148,6 +149,7 @@ export default {
     return {
       menulist: [],
       isCollapse: false,
+      activerouter:""
     };
   },
   computed: {
@@ -180,6 +182,12 @@ export default {
   },
   created() {
     this.getMenuList();
+  },
+  mounted() {
+    let defaultMenu = window.location.hash.substr(
+      window.location.hash.indexOf("/")
+    );
+    this.activerouter = defaultMenu;
   },
 };
 </script>
